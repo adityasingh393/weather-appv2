@@ -8,6 +8,9 @@ const App: React.FC = () => {
   const savedCity = localStorage.getItem('lastCity');
   const savedLat = localStorage.getItem('lastLat');
   const savedLng = localStorage.getItem('lastLng');
+
+  // console.log(savedCity);
+
   const [city, setCity] = useState<string>(savedCity || '');
   const [latitude, setLatitude] = useState<string>(savedLat || '');
   const [longitude, setLongitude] = useState<string>(savedLng || '');

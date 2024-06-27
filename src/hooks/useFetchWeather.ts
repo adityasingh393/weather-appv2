@@ -26,10 +26,10 @@ const useFetchWeather = (latitude: string, longitude: string) => {
 
   useEffect(() => {
     fetchWeatherData();
-    const interval = setInterval(fetchWeatherData, 600000);
+    const interval = setInterval(fetchWeatherData, 10*1000);
 
     return () => clearInterval(interval);
-  }, [fetchWeatherData]);
+  }, []);
 
   return { weatherData, loading };
 };

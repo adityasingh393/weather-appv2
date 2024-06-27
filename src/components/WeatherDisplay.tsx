@@ -31,3 +31,5 @@ const WeatherDisplay: React.FC<WeatherDisplayProps> = ({ weatherData, loading })
 };
 
 export default WeatherDisplay;
+
+//memo use krna tha pr maine directly store kr di hai
