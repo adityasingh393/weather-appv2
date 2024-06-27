@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  border:solid blue 2px 
+}
+.city{
+  text-align: center;
+  align-items: center;
+  margin:auto;
+}
+/* form {
+  margin-bottom: 20px;
+} */
+
+/* select {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+} */
+
+div {
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+/* p {
+  margin: 10px 0;
+  font-size: 18px;
+} */
+/* 
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+} */
